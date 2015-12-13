@@ -32,8 +32,6 @@ else:
   rec = cur.fetchall()
   for r in rec:
     print "({},{})," .format(r[0], r[1]),
-  else:
-    print "No Words"
 
 conn.commit()
 
